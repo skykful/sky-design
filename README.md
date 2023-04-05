@@ -1,6 +1,6 @@
 # sky-design
 
-This template should help get you started developing with Vue 3 in Vite.
+这是我的测试项目，自己写一个后台管理系统，使用的是vue3全家桶+vite
 
 ## Recommended IDE Setup
 
