@@ -1,7 +1,7 @@
 
 {
-  "editor.fontSize": 20,
-  "terminal.integrated.fontSize": 18,	
+  "editor.fontSize": 14,
+  "terminal.integrated.fontSize": 14,	
   "editor.tabSize": 2,
   "editor.formatOnSave": true,
   "[vue]": {
@@ -16,5 +16,6 @@
     "html",
     "vue",
     "typescript"
-  ]
+  ],
+  "prettier.singleQuote": false
 }

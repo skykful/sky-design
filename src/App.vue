@@ -1,6 +1,6 @@
 <template>
-  <el-container>
-    <el-header>Header</el-header>
+  <el-container direction="vertical">
+    <Header />
     <el-container>
       <el-aside width="200px">Aside</el-aside>
       <el-main><RouterView /></el-main>
@@ -10,4 +10,5 @@
 
 <script setup lang="ts">
 import { RouterView } from 'vue-router';
+import Header from '@/components/Header/header.vue';
 </script>
