@@ -21,12 +21,13 @@ export default defineConfig({
       resolvers: [ElementPlusResolver()],
     }),
     ViteCompress({
-      ext: '.gz'
+      ext: '.gz',
+      filter: /.(js|css)/
     }),
     visualizer({
       emitFile: true,
-      filename: "dist/stats.html",
-      open:true 
+      filename: "stats.html",
+      open: false 
     })
   ],
   resolve: {
